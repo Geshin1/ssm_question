@@ -1,8 +1,9 @@
 <template>
-    <survey-creator :options="{locale: 'zh-cn'}"></survey-creator>
-    <div>
-        <div id="surveyEditorContainer"></div>
-    </div>
+  <div>
+    <survey-creator :options="{locale: 'zh-cn'}">
+      <div id="surveyEditorContainer"></div>
+    </survey-creator>
+  </div>
 </template>
 
 <script>
