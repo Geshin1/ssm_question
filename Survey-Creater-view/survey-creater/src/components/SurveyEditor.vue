@@ -1,4 +1,5 @@
 <template>
+    <survey-creator :options="{locale: 'zh-cn'}"></survey-creator>
     <div>
         <div id="surveyEditorContainer"></div>
     </div>
