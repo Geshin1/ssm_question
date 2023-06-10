@@ -6,8 +6,8 @@ import java.util.List;
 /**
  * @ClassName AnalyzeResult
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/5 18:22
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 

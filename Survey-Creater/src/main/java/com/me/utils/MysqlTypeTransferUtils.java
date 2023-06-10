@@ -7,8 +7,8 @@ import java.util.Map;
 /**
  * @ClassName MysqlTypeTransferUtils
  * @Description TODO
- * @Author xufeng
- * @Data 2019/2/27 11:49
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class MysqlTypeTransferUtils {

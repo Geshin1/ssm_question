@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
- * @author fenghere
+ * @author noname
  */
 @SpringBootApplication
 @ServletComponentScan("com.me.filter")

@@ -8,8 +8,8 @@ import java.util.Base64;
 /**
  * @ClassName FileTest
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/4 16:38
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class FileTest {

@@ -15,8 +15,8 @@ import java.security.NoSuchAlgorithmException;
 /**
  * @ClassName MyTest
  * @Description TODO
- * @Author xufeng
- * @Data 2019/2/22 13:46
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class MyTest extends DemoApplicationTests{

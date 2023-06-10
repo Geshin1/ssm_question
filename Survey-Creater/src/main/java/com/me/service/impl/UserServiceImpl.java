@@ -16,8 +16,8 @@ import java.security.NoSuchAlgorithmException;
  *  服务实现类
  * </p>
  *
- * @author xff
- * @since 2019-02-22
+ * @author noname
+ * @since
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {

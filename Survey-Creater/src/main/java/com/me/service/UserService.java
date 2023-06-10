@@ -11,8 +11,8 @@ import java.security.NoSuchAlgorithmException;
  *  服务类
  * </p>
  *
- * @author xff
- * @since 2019-02-22
+ * @author noname
+ * @since
  */
 public interface UserService extends IService<User> {
     /**

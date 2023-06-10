@@ -8,8 +8,8 @@ import java.util.List;
 
 /**
  * @Description -> 这是一个用来封装各种返回对象的类
- * @Author -> xufeng
- * @Data ->
+ * @Author -> noname
+ * @Data
  * @about ->
  **/
 public class ReturnMessage implements Serializable {

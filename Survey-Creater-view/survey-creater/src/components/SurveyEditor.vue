@@ -38,7 +38,6 @@ export default {
     let editorOptions = { showEmbededSurveyTab: false,showJSONEditorTab:false };
     let pageid = me.$forCrypto.forCrypto(me.state.identify.email);
     this.editor = new SurveyEditor.SurveyEditor('surveyEditorContainer', editorOptions);
-    //SurveyEditor.localization.currentLocale = "zh-cn"; // 设置默认语言为中文
     this.editor.saveSurveyFunc = function() {
       let params = JSON.stringify(this.text);
           me.$axios.post('user/createSurvey',qs.stringify({"params":params,"pageid":pageid}),function(r){

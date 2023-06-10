@@ -10,8 +10,8 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author xff
- * @since 2019-02-26
+ * @author noname
+ * @since
  */
 public class Surveys extends Model<Surveys> {
 

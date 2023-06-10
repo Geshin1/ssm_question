@@ -8,8 +8,8 @@ import com.baomidou.mybatisplus.service.IService;
  *  服务类
  * </p>
  *
- * @author xff
- * @since 2019-02-26
+ * @author noname
+ * @since
  */
 public interface SurveysService extends IService<Surveys> {
 

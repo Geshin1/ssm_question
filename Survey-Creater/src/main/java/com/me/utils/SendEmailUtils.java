@@ -4,7 +4,7 @@ import com.me.dto.EmailMessage;
 import com.me.dto.Mymail;
 
 /**
- * @author fenghere
+ * @author noname
  */
 public class SendEmailUtils {
 

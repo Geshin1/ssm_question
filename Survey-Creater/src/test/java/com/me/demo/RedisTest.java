@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * @ClassName RedisTest
  * @Description TODO
- * @Author xufeng
- * @Data 2019/2/28 16:45
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class RedisTest extends DemoApplicationTests {

@@ -14,8 +14,8 @@ import java.time.LocalDateTime;
 /**
  * @ClassName HistoryAspectJ
  * @Description 操作记录增强类
- * @Author xufeng
- * @Data 2019/3/11 9:17
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 @Aspect

@@ -17,8 +17,8 @@ import java.util.List;
 /**
  * @ClassName ArrayToStringTest
  * @Description TODO
- * @Author xufeng
- * @Data 2019/2/28 17:43
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class ArrayToStringTest {

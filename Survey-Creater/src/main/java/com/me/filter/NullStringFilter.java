@@ -9,8 +9,8 @@ import java.io.IOException;
 /**
  * @ClassName NullStringFilter
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/10 15:59
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 @WebFilter(filterName = "select",urlPatterns = "/manager/selectPage")
