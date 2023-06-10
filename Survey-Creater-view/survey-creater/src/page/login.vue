@@ -2,7 +2,8 @@
   <div>
     <div class="login" v-bind:style="{height: theight}">
       <myHeader/>  
-      <form class="theform" autocomplete="off">
+      <button class="btn btn-primary login-button" @click="showLoginForm">登录</button>
+      <form v-if="showLogin" class="login-form" v-bind:style="{ top: loginTop }" autocomplete="off">
           <div class="form-group">
               <input class="form-control" v-model="theform.email" placeholder="email" type="email">
           </div>
@@ -16,6 +17,9 @@
           <button type="reset" class="btn btn-danger">{{reset}}</button>
           &nbsp;&nbsp;
           <button type="button" @click="toRegister" class="btn btn-primary">{{register}}</button>
+          <!--设置login-form背景并置于底层-->
+          <div class="login-form-background"></div>
+          <div class="login-form-content"></div>
       </form>
       <myFooter/>
     </div>
@@ -41,6 +45,7 @@ export default {
        },
        pflag:false,
        theight:'',
+       showLogin: false,
     }
   },
   created() {
@@ -79,8 +84,19 @@ export default {
               }
             }
           });
-      } 
-  }
+      },
+      showLoginForm() {
+        this.showLogin = true;
+      },
+  },
+  computed: {
+    loginTop() {
+      const buttonHeight = 40; // 按钮的高度
+      const formHeight = 200; // 表单的高度
+      const buttonTop = document.querySelector('.login-button').getBoundingClientRect().top; // 按钮的顶部位置
+      return `${buttonTop + buttonHeight }px`; // 返回表单的顶部位置
+    },
+  },
 }
 </script>
 
