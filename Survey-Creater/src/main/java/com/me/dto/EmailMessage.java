@@ -3,8 +3,8 @@ package com.me.dto;
 /**
  * @ClassName EmailMessage
  * @Description TODO
- * @Author xufeng
- * @Data 2019/2/22 10:51
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class EmailMessage {

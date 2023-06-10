@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 /**
  * @ClassName MybatisPlusConfig
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/10 14:05
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 

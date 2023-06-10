@@ -10,8 +10,8 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author xff
- * @since 2019-02-22
+ * @author noname
+ * @since
  */
 public class User extends Model<User> {
 

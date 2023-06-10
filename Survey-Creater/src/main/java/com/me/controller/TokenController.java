@@ -18,8 +18,8 @@ import java.util.HashMap;
 /**
  * @ClassName TokenController
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/1 14:20
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 @RestController

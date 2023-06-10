@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 /**
  * @ClassName TokenAspectJ
  * @Description 在用户或管理员的请求前对token进行验证
- * @Author xufeng
- * @Data 2019/3/1 18:05
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 @Aspect

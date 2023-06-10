@@ -14,8 +14,8 @@ import java.util.HashMap;
 /**
  * @ClassName TokenCreater
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/1 10:26
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class TokenCreater {

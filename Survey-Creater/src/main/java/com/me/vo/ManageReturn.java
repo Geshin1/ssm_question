@@ -8,8 +8,8 @@ import java.util.List;
 /**
  * @ClassName ManageReturn
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/10 14:23
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class ManageReturn {

@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @author fenghere
+ * @author noname
  */
 @Mapper
 public interface TableControllerMapper {

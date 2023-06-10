@@ -8,8 +8,8 @@ import java.util.Map;
 /**
  * @ClassName ManageHttpRequestWrapper
  * @Description TODO
- * @Author xufeng
- * @Data 2019/3/10 16:23
+ * @Author noname
+ * @Data
  * @Version 1.0
  **/
 public class ManageHttpRequestWrapper extends HttpServletRequestWrapper {
