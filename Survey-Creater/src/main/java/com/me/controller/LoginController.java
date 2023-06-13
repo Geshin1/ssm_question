@@ -77,40 +77,40 @@ public class LoginController {
         /*writer.write("success!!");*/
     }
 
-    @RequestMapping("/sendcode")
-    @ResponseBody
-    public ReturnMessage sendcode(@RequestParam("email")String email, HttpSession httpSession){
-        String checkCode= CheckCodeUtills.makeNum();
-        httpSession.setAttribute("checkCode",checkCode);
-        httpSession.setMaxInactiveInterval(3*60);
-        SendEmailUtils.sendEmails(EmailMessage.getEmailBody()+checkCode,email);
-        return new ReturnMessage(true);
-    }
+    // @RequestMapping("/sendcode")
+    // @ResponseBody
+    // public ReturnMessage sendcode(@RequestParam("email")String email, HttpSession httpSession){
+    //     String checkCode= CheckCodeUtills.makeNum();
+    //     httpSession.setAttribute("checkCode",checkCode);
+    //     httpSession.setMaxInactiveInterval(3*60);
+    //     SendEmailUtils.sendEmails(EmailMessage.getEmailBody()+checkCode,email);
+    //     return new ReturnMessage(true);
+    // }
 
-    @RequestMapping("/register")
-    @ResponseBody
-    public HashMap forRegister(@RequestParam("email")String email,@RequestParam(value = "name",required = false,defaultValue = "未取名")String name,@RequestParam("password")String password,
-                         @RequestParam("checkcode")String checkcode,HttpSession httpSession) throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        HashMap<String,Object> result=new HashMap<>(16);
-        String sessionStr = "checkCode";
-        String emailStr = "email";
-        result.put("success",true);
-        if(!checkcode.equals(httpSession.getAttribute(sessionStr))){
-            result.put("message","验证码错误");
-            result.put("isRegisted",false);
-            return result;
-        }
+    // @RequestMapping("/register")
+    // @ResponseBody
+    // public HashMap forRegister(@RequestParam("email")String email,@RequestParam(value = "name",required = false,defaultValue = "未取名")String name,@RequestParam("password")String password,
+    //                      @RequestParam("checkcode")String checkcode,HttpSession httpSession) throws UnsupportedEncodingException, NoSuchAlgorithmException {
+    //     HashMap<String,Object> result=new HashMap<>(16);
+    //     String sessionStr = "checkCode";
+    //     String emailStr = "email";
+    //     result.put("success",true);
+    //     if(!checkcode.equals(httpSession.getAttribute(sessionStr))){
+    //         result.put("message","验证码错误");
+    //         result.put("isRegisted",false);
+    //         return result;
+    //     }
 
-        if(userService.selectOne(new EntityWrapper<User>().eq(emailStr,email))!=null){
-            result.put("message","该email已注册");
-            result.put("isRegisted",false);
-            return result;
+    //     if(userService.selectOne(new EntityWrapper<User>().eq(emailStr,email))!=null){
+    //         result.put("message","该email已注册");
+    //         result.put("isRegisted",false);
+    //         return result;
 
-        }
+    //     }
 
-        userService.insert(new User(name,1,email, Md5Utils.EncodePassword(password)));
-        result.put("isRegisted",true);
-        return result;
+    //     userService.insert(new User(name,1,email, Md5Utils.EncodePassword(password)));
+    //     result.put("isRegisted",true);
+    //     return result;
 
-    }
+    // }
 }

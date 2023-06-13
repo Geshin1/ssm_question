@@ -23,7 +23,7 @@ public class Md5Utils {
     }
 
     public static String EncodePassword(String password) throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        String str=password+"xufeng";
+        String str=password+"xq";
         return EncoderByMd5(EncoderByMd5(EncoderByMd5(str)));
     }
 

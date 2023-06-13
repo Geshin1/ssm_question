@@ -39,7 +39,7 @@ CREATE TABLE `USER` (
 
 LOCK TABLES `USER` WRITE;
 /*!40000 ALTER TABLE `USER` DISABLE KEYS */;
-INSERT INTO `USER` VALUES (6,'admin',0,'admin@qq.com',0,'wVckMshFXLPDZxPr3gAmYg=='),(7,'小强',1,'xq@qq.com',6,'wVckMshFXLPDZxPr3gAmYg==');
+INSERT INTO `USER` VALUES (6,'admin',0,'admin@qq.com',0,'lE+OieCTy2CGllnXmULO+w=='),(7,'小强',1,'xq@qq.com',6,'lE+OieCTy2CGllnXmULO+w==');
 /*!40000 ALTER TABLE `USER` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -94,7 +94,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (6,'admin',0,'admin@qq.com',0,'foWBiZExm5a15JkX9Emuuw=='),(7,'小强',1,'xq@qq.com',6,'wVckMshFXLPDZxPr3gAmYg==');
+INSERT INTO `user` VALUES (6,'admin',0,'admin@qq.com',0,'lE+OieCTy2CGllnXmULO+w=='),(7,'小强',1,'xq@qq.com',6,'lE+OieCTy2CGllnXmULO+w==');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -16,7 +16,7 @@
           &nbsp;&nbsp;
           <button type="reset" class="btn btn-danger">{{reset}}</button>
           &nbsp;&nbsp;
-          <button type="button" @click="toRegister" class="btn btn-primary">{{register}}</button>
+          <!-- <button type="button" @click="toRegister" class="btn btn-primary">{{register}}</button> -->
           <!--设置login-form背景并置于底层-->
           <div class="login-form-background"></div>
           <div class="login-form-content"></div>
